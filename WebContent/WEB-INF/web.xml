@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>A Small Web Application</display-name>
+  <servlet>
+    <servlet-name>Assignment2ServletName</servlet-name>
+    <servlet-class>com.w3epic.wiprotraining.assignment2.Assignment2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Assignment2ServletName</servlet-name>
+    <url-pattern>/assignment2.arp</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Assignment3ServletName</servlet-name>
+    <servlet-class>com.w3epic.wiprotraining.assignment3.Assignment3Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Assignment3ServletName</servlet-name>
+    <url-pattern>/assignment3.arp</url-pattern>
+  </servlet-mapping>
+</web-app>
